@@ -1,0 +1,123 @@
+
+@media (max-width: 1199.98px) { 
+
+    .footer h6{
+        font-size: 10px;
+    }
+
+}
+@media (max-width: 991.98px) { 
+
+    h2{
+        font-size: 30px !important;
+    }
+    h3{
+        font-size: 23px !important;
+    }
+    p {
+        line-height: normal !important;
+        font-size: 12px !important;
+    }
+    .round_one .content img {
+        max-width: 100px;
+        margin-bottom: 10px;
+    }
+    .round_one .content h1 {
+        font-size: 22px;
+    }
+    .round_one .content{
+        padding: 45px 0;
+    }
+    .round_one .content .box{
+        margin-top: 20px;
+    }
+    .work .box h1{
+        font-size: 60px;
+    }
+    .work h3 {
+        font-size: 18px !important;
+    }
+    .work h3 span{
+        font-size: 11px;
+    }
+    
+}
+@media (max-width: 767.98px) { 
+
+    .challenge{
+        background-position: center;
+    }
+    .round_one .image {
+        display: none;
+    }
+    .round_one .content img {
+        max-width: 140px;
+        margin-bottom: 40px;
+    }
+    .banner-btn h1 {
+        font-size: 24px;
+    }
+    .banner-btn a {
+        font-size: 12px;
+        width: 125px;
+        height: 40px;
+        line-height: 36px;
+    }
+    .work h1{
+        font-size: 35px;
+    }
+    .work h3 {
+        font-size: 28px !important;
+    }
+    .work h3 span {
+        font-size: 14px;
+    }
+    p {
+        line-height: normal !important;
+        font-size: 15px !important;
+    }
+    
+}
+@media (max-width: 575.98px) {  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+
+*/

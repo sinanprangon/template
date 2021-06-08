@@ -1,0 +1,448 @@
+/* ==========================================================================
+
+-	Revolution Slider 5.0 Default Style Settings -
+Screen Stylesheet
+version:   	5.0.0
+date:      	29/10/15
+author:		themepunch
+email:     	info@themepunch.com
+website:   	http://www.themepunch.com
+
+========================================================================== */
+
+
+/* ==========================================================================
+   global css
+   ========================================================================== */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    list-style: none;
+}
+table{
+    width: 100%;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+input,button,textarea{
+    outline: none;
+}
+button{
+    cursor: pointer;
+}
+input:focus,button:focus,textarea:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+@font-face {
+  font-family: FontsFree-Net-Proxima-Nova-Bold;
+  src: url('../fonts/FontsFree-Net-Proxima-Nova-Bold.otf');
+}
+h1,h2,h3,h4{
+    font-family: FontsFree-Net-Proxima-Nova-Bold;
+}
+p{
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+.top-bar {
+    background: #757978;
+    padding: 20px 0;
+}
+.top-bar .menu {
+    text-align: right;
+}
+.top-bar ul {
+    display: inline-block;
+}
+.top-bar ul li {
+    float: left;
+    margin-left: 15px;
+}
+.top-bar ul li:first-child{
+    margin-left: 0;
+}
+.top-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+}
+.top-bar ul li a img {
+    display: block;
+    width: 17px;
+}
+
+
+
+.main-nav {
+    transition: linear .4s;
+}
+.fixed-top {
+    background: #fff;
+    transition: linear .4s !important;
+}
+.navbar-brand {
+    max-width: 210px;
+}
+.navbar {
+    padding: 15px 0;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.nav-link {
+    position: relative;
+    text-transform: uppercase;
+    color: #757978 !important;
+    display: block;
+    margin-left: 40px;
+    margin-right: 0 !important;
+    font-weight: bold;
+    transition: .3s;
+}
+.nav-link:hover{
+    color: #f38d37 !important;
+}
+.nav-link::before {
+    content: '';
+    position: absolute;
+    background: #f38d37;
+    width: 0%;
+    height: 2px;
+    bottom: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: linear .4s;
+    border-radius: 30px;
+}
+.nav-link:hover::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+}
+
+
+
+.banner img{
+    width: 100%;
+}
+.banner-btn a{
+    background-image: url(../images/button.png);
+    background-size: 100% 100%;
+}
+
+
+.banner-btn {
+    background: #f38d37;
+    padding: 40px 0;
+}
+.banner-btn a {
+    background-image: url(../images/button.png);
+    background-size: 100% 100%;
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-family: FontsFree-Net-Proxima-Nova-Bold;
+    line-height: 47px;
+    text-decoration: none;
+    transition: linear .4s;
+}
+.banner-btn a:hover{
+    width: 230px;
+}
+
+
+
+
+.challenge {
+    background: url('../images/3.jpg');
+    background-size: cover;
+    padding: 61px 0;
+}
+.challenge h3 {
+    color: #606161;
+    margin-bottom: 0;
+}
+.challenge h2 {
+    color: #606161;
+    font-size: 40px;
+    margin-bottom: 36px;
+}
+.challenge h4 {
+    color: #ff923f;
+    margin-bottom: 0;
+    font-size: 30px;
+}
+.challenge p {
+    color: #545455;
+    line-height: 26px;
+}
+.challenge p span{
+    font-family: FontsFree-Net-Proxima-Nova-Bold;
+}
+.challenge ul li {
+    font-family: FontsFree-Net-Proxima-Nova-Bold;
+    color: #545455;
+}
+
+
+
+.round_one .content {
+    padding: 80px 0;
+    text-align: left;
+}
+.round_one .content img {
+    max-width: 200px;
+    margin-bottom: 30px;
+}
+.round_one .content h1 {
+    color: #606161;
+    font-size: 32px;
+}
+.round_one .content hr {
+    max-width: 80%;
+    margin: 10px 0;
+    background: #000;
+}
+.round_one .content .box {
+    margin-top: 50px;
+}
+.round_one .content .box h3 {
+    color: #ff923f;
+    line-height: 30px;
+}
+.round_one .content .box h3 span {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+.round_one .content .box h6 {
+    color: #545455;
+    margin-bottom: 20px;
+}
+.round_one .content .box h6 span {
+    display: block;
+    margin-top: 20px;
+}
+.round_one .content .box p {
+    color: #545455;
+    font-weight: lighter;
+}
+.round_one .content .box p span{
+    display: block;
+}
+
+
+
+.work {
+    padding: 80px 0;
+}
+.work h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: #606161;
+}
+.work .content{
+    margin: 15px 0;
+}
+.work .box {
+    position: relative;
+    background: #fc0;
+    width: 100%;
+    height: 9rem;
+    border: 4px solid #ff923f;
+    z-index: 2;
+}
+.work .box::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 0%;
+    height: 0%;
+    background: #ff923f;
+    z-index: -2;
+    border-radius: 50%;
+    transition: linear .4s;
+}
+.work .box:hover::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+.work .box h1 {
+    color: #fff;
+    margin: 0;
+    line-height: 159px;
+    font-size: 106px;
+}
+.work h3 {
+    text-align: center;
+    color: #ff923f;
+    margin: 30px 0;
+}
+.work h3 span {
+    font-size: 16px;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+.work p {
+    color: #858585;
+    font-size: 15px;
+}
+
+
+
+.accordion-area {
+    margin-top: 70px;
+}
+.accordion-area .box-area {
+    margin: 40px 0;
+}
+.accordion-area .box-area h2 {
+    color: #606161;
+}
+
+#accordion{
+    position: relative;
+    margin: 30px 0;
+}
+#accordion::before {
+    content: '';
+    position: absolute;
+    top: 32px;
+    left: -22px;
+    height: 80%;
+    width: 1px;
+    background: 
+    #f38d37;
+}
+.ui-accordion .ui-accordion-header {
+    position: relative;
+    display: block;
+    text-align: left;
+    cursor: pointer;
+    position: relative;
+    padding: 16px 12px;
+    background: 
+    transparent;
+    color:
+    #f38d37;
+    border-left: 3px solid
+    #f38d37;
+    border-radius: 0px;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px
+    #dad1d1;
+    margin: 20px 0;
+    margin-bottom: 20px;
+    transition: linear .7s;
+    z-index: 2;
+}
+.ui-accordion .ui-accordion-header:hover{
+    color: #fff;
+}
+.ui-state-active {
+    background: #f38d37 !important;
+    color: #fff !important;
+}
+.ui-accordion .ui-accordion-header::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -31px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid 
+    #f38d37;
+    transform: translateY(-50%);
+    background:
+    #fff;
+}
+.ui-accordion .ui-accordion-header::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #f38d37;
+    transition: linear .8s;
+    z-index: -2;
+}
+.ui-accordion .ui-accordion-header:hover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#accordion .ui-accordion-header-icon {
+
+    overflow: visible;
+    text-align: right;
+    float: right;
+    background: 
+
+    transparent !important;
+    margin: 5px 0;
+
+}
+.ui-state-active {
+    border: none;
+    margin-bottom: 5px !important;
+}
+.ui-accordion .ui-accordion-content {
+    padding: 1em 2.2em;
+    border-top: 0;
+    overflow: auto;
+    box-shadow: 0px 0px 10px 
+    #dad1d1;
+    border: none;
+    border-left: 3px solid
+    #f38d37;
+    margin-top: 7px;
+}
+#accordion p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 8px 0;
+    line-height: 23px;
+}
+
+
+.footer {
+    background: #757978;
+    padding: 40px 0;
+}
+.footer h6 {
+    color: #fff;
+    margin: 0;
+    line-height: normal;
+}
+
+
